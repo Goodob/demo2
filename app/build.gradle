@@ -24,5 +24,5 @@ dependencies {
 
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
-  /*  compile files('E:\\android\\speed\\libs\\android-support-v4.jar')*/
+   /* compile files('E:\\android\\speed\\libs\\android-support-v4.jar')*/
 }

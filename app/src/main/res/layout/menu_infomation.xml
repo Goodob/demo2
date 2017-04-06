@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F3EF">
+    <!--头部-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/aa"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/back"
+
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <ImageView
+            android:id="@+id/collect"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/collect"
+            />
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="120dp"
+            android:background="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:text="asdadadada"
+            />
+
+    </RelativeLayout>
+    
+
+</LinearLayout>

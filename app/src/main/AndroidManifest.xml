@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--跳转最新推荐-->
+        <activity
+            android:name=".home_child.newest"
+            ></activity>
+        <!--最新推荐item点击-->
+        <activity
+            android:name=".menu_child.menuInformation"
+            ></activity>
     </application>
 
 </manifest>

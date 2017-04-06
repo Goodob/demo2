@@ -8,10 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+/***
+ * 个人资料设置，
+ */
 public class fra_set extends Fragment {
 
 	
-	private LinearLayout pyq;
+
 	@Override
 	public View onCreateView(LayoutInflater inflater,
 			ViewGroup container, Bundle savedInstanceState) {

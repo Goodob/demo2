@@ -8,10 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+/***
+ * 朋友圈
+ */
 public class fra_friends extends Fragment {
 
-	
-	private LinearLayout pyq;
 	@Override
 	public View onCreateView(LayoutInflater inflater,
 			ViewGroup container, Bundle savedInstanceState) {
