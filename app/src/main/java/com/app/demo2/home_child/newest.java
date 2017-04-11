@@ -86,7 +86,7 @@ public class newest extends FragmentActivity{
                 r.setBackgroundDrawable(btnDrawable);*/
                 /*设置listview菜名*/
                 TextView t = (TextView) view.findViewById(R.id.list_i_txt);
-                t.setText(m.getMenuName());
+                t.setText(m.getMenuName()+(position+1));
 
                 return view;
             }
